@@ -5,7 +5,7 @@ document.addEventListener("deviceready",function(){
 	
 	audio=window.plugins.LowLatencyAudio;
 	
-	audio.preloadFx('do','audio/DO.mp3'.mp3, function(){},function(e){alert('Error '+e);});
+	audio.preloadFx('do','audio/DO.mp3', function(){},function(e){alert('Error '+e);});
 	audio.preloadFx('re','audio/RE.mp3', function(){},function(e){alert('Error '+e);});
 	audio.preloadFx('mi','audio/MI.mp3', function(){},function(e){alert('Error '+e);});
 	audio.preloadFx('fa','audio/FA.mp3', function(){},function(e){alert('Error '+e);});
